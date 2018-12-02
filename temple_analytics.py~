@@ -1,0 +1,5 @@
+#!/usr/bin/env python
+
+with open('actor_search_list.csv') as f:
+    result = [line.split()[0] for line in f]
+    print result
